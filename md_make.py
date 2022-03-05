@@ -19,4 +19,5 @@ def make_markedown(directory, filename):
         f.write(markdown(data))
         
 if __name__ == "__main__":
+    #make_markedown("/latex_report", "rss2022-1-lab3.pdf")
     make_markedown(os.getcwd(), "README.md")
